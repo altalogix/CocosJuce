@@ -1,6 +1,7 @@
-All Juce library code, as found in the directories:
+**All Juce library code, as found in the directories:**
 
   CocosJuceSharedLib/JuceLibraryCode
+
   CocosJuceStaticLib/JuceLibraryCode
    
    comes with following license statement:
@@ -26,7 +27,11 @@ All Juce library code, as found in the directories:
    ------------------------------------------------------------------------------
 
 
-Google Roboto Fonts come with following license statement:
+
+
+
+
+**Google Roboto Fonts come with following license statement:**
 
                                    Apache License
                            Version 2.0, January 2004
@@ -232,12 +237,12 @@ Google Roboto Fonts come with following license statement:
 
 
    
-Everything else in this repository (unless marked differently in the respective files)
-is licensed as follows:
+**Everything else in this repository (unless marked differently in the respective files)
+is licensed as follows:**
 
 	The MIT License (MIT)
 
-	Copyright (c) [year] [fullname]
+	Copyright (c) 2015 Leo Olivers
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
