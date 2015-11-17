@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{513AFC2D-D36F-1309-9EF2-263FF6EA79EF}") = "CocosJuceSharedLib", "CocosJuceSharedLib.vcxproj", "{5F77F929-B694-0F7B-3572-3031896E1FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F77F929-B694-0F7B-3572-3031896E1FEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F77F929-B694-0F7B-3572-3031896E1FEF}.Debug|Win32.Build.0 = Debug|Win32
+		{5F77F929-B694-0F7B-3572-3031896E1FEF}.Release|Win32.ActiveCfg = Release|Win32
+		{5F77F929-B694-0F7B-3572-3031896E1FEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

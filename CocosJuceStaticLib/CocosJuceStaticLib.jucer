@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="mTBQcE" name="CocosJuceStaticLib" projectType="library" version="1.0.0"
+              bundleIdentifier="com.yourcompany.CocosJuceStaticLib" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="ABmWnJ" name="CocosJuceStaticLib">
+    <GROUP id="{BAB8934F-24DE-4847-2EBE-2AD6B0525659}" name="Source">
+      <FILE id="DEIRwx" name="CocosJuceApi.cpp" compile="1" resource="0"
+            file="../CocosJuceSharedLib/Source/CocosJuceApi.cpp"/>
+      <FILE id="k4Rya5" name="CocosJuceApi.h" compile="0" resource="0" file="../CocosJuceSharedLib/Source/CocosJuceApi.h"/>
+      <FILE id="aI13iq" name="CocosJuceMain.cpp" compile="1" resource="0"
+            file="../CocosJuceSharedLib/Source/CocosJuceMain.cpp"/>
+      <FILE id="eXoQk8" name="CocosJuceMain.h" compile="0" resource="0" file="../CocosJuceSharedLib/Source/CocosJuceMain.h"/>
+      <FILE id="Y8HGfq" name="platform.h" compile="0" resource="0" file="../CocosJuceSharedLib/Source/platform.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" iosCompatibility="7.0" isDebug="1" optimisation="1"
+                       targetName="CocosJuceStaticLib"/>
+        <CONFIGURATION name="Release" iosCompatibility="7.0" isDebug="0" optimisation="3"
+                       targetName="CocosJuceStaticLib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
